@@ -333,6 +333,7 @@
 				1E6452A72AD557A700CCF7B8 /* Sources */,
 				1E6452A82AD557A700CCF7B8 /* Frameworks */,
 				1E6452A92AD557A700CCF7B8 /* Resources */,
+				23B7CEA04FC2CD2C3802121D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,6 +455,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		23B7CEA04FC2CD2C3802121D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliyunFace-demo/Pods-AliyunFace-demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AliyunFace-demo/Pods-AliyunFace-demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AliyunFace-demo/Pods-AliyunFace-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FAABF1AAE0FC811E12E9AC4B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -7,7 +7,7 @@ target 'AliyunFace-demo' do
 
   # Pods for AliyunFace-demo
 
-#pod 'AlipaySDK-iOS'
+pod 'AlipaySDK-iOS'
 
 #  target 'AliyunFace-demoTests' do
 #    inherit! :search_paths
