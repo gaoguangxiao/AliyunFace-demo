@@ -58,6 +58,7 @@
 		1E6453562AD56B2E00CCF7B8 /* BioAuthEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E6453552AD56B2E00CCF7B8 /* BioAuthEngine.bundle */; };
 		1E64535B2AD56B4B00CCF7B8 /* MultiFactorFacade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E64535A2AD56B4B00CCF7B8 /* MultiFactorFacade.bundle */; };
 		1E64535D2AD56B5500CCF7B8 /* OCRXMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E64535C2AD56B5500CCF7B8 /* OCRXMedia.bundle */; };
+		1E6ED9232AD63A56006A1BF8 /* ToygerService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E6ED9222AD63A56006A1BF8 /* ToygerService.bundle */; };
 		5753150DCE39EE1CB6A22D30 /* Pods_AliyunFace_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83021A75C81CDD7EF9D4A46B /* Pods_AliyunFace_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,9 +136,9 @@
 		1E6453512AD56B2300CCF7B8 /* APBToygerFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = "AliyunFace-demo/frameworks/APBToygerFacade.framework/APBToygerFacade.bundle"; sourceTree = "<group>"; };
 		1E6453522AD56B2300CCF7B8 /* APBToygerFacadeSuitable.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacadeSuitable.bundle; path = "AliyunFace-demo/frameworks/APBToygerFacade.framework/APBToygerFacadeSuitable.bundle"; sourceTree = "<group>"; };
 		1E6453552AD56B2E00CCF7B8 /* BioAuthEngine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = "AliyunFace-demo/frameworks/BioAuthEngine.framework/BioAuthEngine.bundle"; sourceTree = "<group>"; };
-		1E6453592AD56B4100CCF7B8 /* DTFNFCIdentityManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DTFNFCIdentityManager.bundle; path = "AliyunFace-demo/frameworks/DTFNFCIdentityManager.framework/DTFNFCIdentityManager.bundle"; sourceTree = "<group>"; };
 		1E64535A2AD56B4B00CCF7B8 /* MultiFactorFacade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MultiFactorFacade.bundle; path = "AliyunFace-demo/frameworks/MultiFactorFacade.framework/MultiFactorFacade.bundle"; sourceTree = "<group>"; };
 		1E64535C2AD56B5500CCF7B8 /* OCRXMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = OCRXMedia.bundle; path = "AliyunFace-demo/frameworks/OCRDetectSDKForTech.framework/OCRXMedia.bundle"; sourceTree = "<group>"; };
+		1E6ED9222AD63A56006A1BF8 /* ToygerService.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ToygerService.bundle; path = "AliyunFace-demo/frameworks/ToygerService.framework/ToygerService.bundle"; sourceTree = "<group>"; };
 		3C2AB53DAD6288346777B8C4 /* Pods-AliyunFace-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunFace-demo.release.xcconfig"; path = "Target Support Files/Pods-AliyunFace-demo/Pods-AliyunFace-demo.release.xcconfig"; sourceTree = "<group>"; };
 		4EF2EADD9110F515D832C045 /* Pods-AliyunFace-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunFace-demo.debug.xcconfig"; path = "Target Support Files/Pods-AliyunFace-demo/Pods-AliyunFace-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		83021A75C81CDD7EF9D4A46B /* Pods_AliyunFace_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunFace_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,9 +209,9 @@
 		1E6452A22AD557A700CCF7B8 = {
 			isa = PBXGroup;
 			children = (
+				1E6ED9222AD63A56006A1BF8 /* ToygerService.bundle */,
 				1E64535C2AD56B5500CCF7B8 /* OCRXMedia.bundle */,
 				1E64535A2AD56B4B00CCF7B8 /* MultiFactorFacade.bundle */,
-				1E6453592AD56B4100CCF7B8 /* DTFNFCIdentityManager.bundle */,
 				1E6453552AD56B2E00CCF7B8 /* BioAuthEngine.bundle */,
 				1E6453512AD56B2300CCF7B8 /* APBToygerFacade.bundle */,
 				1E6453522AD56B2300CCF7B8 /* APBToygerFacadeSuitable.bundle */,
@@ -318,7 +319,6 @@
 				4EF2EADD9110F515D832C045 /* Pods-AliyunFace-demo.debug.xcconfig */,
 				3C2AB53DAD6288346777B8C4 /* Pods-AliyunFace-demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -427,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6ED9232AD63A56006A1BF8 /* ToygerService.bundle in Resources */,
 				1E64535D2AD56B5500CCF7B8 /* OCRXMedia.bundle in Resources */,
 				1E64535B2AD56B4B00CCF7B8 /* MultiFactorFacade.bundle in Resources */,
 				1E6453562AD56B2E00CCF7B8 /* BioAuthEngine.bundle in Resources */,
@@ -685,6 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NK58M56UN4;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AliyunFace-demo/frameworks",
@@ -722,6 +724,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NK58M56UN4;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AliyunFace-demo/frameworks",
